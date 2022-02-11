@@ -1,3 +1,4 @@
+use std::fmt::Debug;
 pub use attatch::*;
 pub use error::*;
 use std::io::Write;
@@ -30,13 +31,13 @@ pub struct Metadata {
 #[derive(Debug, Clone)]
 pub struct Package(pub String);
 #[derive(Debug, Clone)]
-pub struct Part(pub String, Vec<Element>);
+pub struct Part(pub String, pub Vec<Element>);
 #[derive(Debug, Clone)]
-pub struct Chapter(pub String, Vec<Element>);
+pub struct Chapter(pub String, pub Vec<Element>);
 #[derive(Debug, Clone)]
-pub struct Section(pub String, Vec<Element>);
+pub struct Section(pub String, pub Vec<Element>);
 #[derive(Debug, Clone)]
-pub struct Paragraph(pub String, Option<Vec<Element>>);
+pub struct Paragraph(pub String, pub Option<Vec<Element>>);
 #[derive(Debug, Clone)]
 pub struct Text(pub String, pub TextType);
 #[derive(Debug, Clone)]
@@ -75,6 +76,43 @@ impl Element {
             Element::Text(_) => 4,
             Element::Input(_) => 5,
         }
+    }
+    pub fn return_value<K>(&self) -> K
+        where K: Convert + Clone + From<Part> + From<Chapter> + From<Section> + From<Paragraph> + From<Text> + From<Input>{
+        match &self {
+            Element::Part(p) => {p.to_owned().into()}
+            Element::Chapter(c) => {c.to_owned().into()}
+            Element::Section(s) => {s.to_owned().into()}
+            Element::Paragraph(p) => {p.to_owned().into()}
+            Element::Text(t) => {t.to_owned().into()}
+            Element::Input(i) => {i.to_owned().into()}
+        }
+    }
+    pub fn get_vec(&self) -> Option<Vec<Element>>{
+        match &self{
+            Element::Part(p) => {Some(p.to_owned().1)}
+            Element::Chapter(c) => {Some(c.to_owned().1)}
+            Element::Section(s) => {Some(s.to_owned().1)}
+            Element::Paragraph(p) => {Some(p.to_owned().1.unwrap())}
+            Element::Text(t) => {None}
+            Element::Input(i) => {None}
+        }
+    }
+    pub fn loop_through(&self) -> String{
+        let vec = match self.get_vec(){
+            Some(a) => a,
+            None => return "".to_string()
+        };
+        let mut s = Vec::new();
+        if vec.is_empty(){
+            return "".to_string()
+        } else {
+            for i in &vec{
+                s.push(i.to_latex_string());
+                s.push(i.loop_through())
+            }
+        }
+        s.join("\n")
     }
 }
 
@@ -150,25 +188,29 @@ impl Latex {
                 Element::Part(e) => {
                     s.push(e.to_latex_string());
                     for j in &e.1 {
-                        s.push(j.to_latex_string())
+                        s.push(j.to_latex_string());
+                        s.push(j.loop_through())
                     }
                 }
                 Element::Chapter(e) => {
                     s.push(e.to_latex_string());
                     for j in &e.1 {
-                        s.push(j.to_latex_string())
+                        s.push(j.to_latex_string());
+                        s.push(j.loop_through())
                     }
                 }
                 Element::Section(e) => {
                     s.push(e.to_latex_string());
                     for j in &e.1 {
-                        s.push(j.to_latex_string())
+                        s.push(j.to_latex_string());
+                        s.push(j.loop_through())
                     }
                 }
                 Element::Paragraph(e) => {
                     s.push(e.to_latex_string());
                     for j in e.1.as_ref().unwrap() {
-                        s.push(j.to_latex_string())
+                        s.push(j.to_latex_string());
+                        s.push(j.loop_through())
                     }
                 }
                 Element::Text(e) => s.push(e.to_latex_string()),
