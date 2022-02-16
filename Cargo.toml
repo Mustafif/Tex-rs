@@ -1,16 +1,9 @@
-[package]
-name = "tex-rs"
-version = "0.1.0"
-edition = "2021"
-license = "MIT"
-description = "Library to create latex documents in Rust"
-readme = "README.md"
-authors = ["Mustafif Khan"]
-repository = "http://github.com/MKProj/Tex-rs"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = [
+    "tex-rs",
+    "tex-rs-dummy",
+    "examples/simple_article"
+]
 
-[[bin]]
-name = "try"
-path = "src/bin/try.rs"
-
-[dependencies]
+# tex-rs is the main library
+# tex-rs-dummy is a binary application to test tex-rs

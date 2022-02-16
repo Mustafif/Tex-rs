@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e3713c4-d73c-43a4-a4f7-97f329990cdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-async/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-async/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/.idea/tex-rs-dummy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs-dummy/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/.idea/tex-rs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/element.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/error.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/latex.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/traits/attatch.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/traits/convert.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tex-rs/src/traits/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tex-rs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tex-rs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliff.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/creating_basic_template/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/creating_basic_template/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attatch.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/try.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/error.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.tex" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kouu6xic" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24w038TxtPftWkxNUarAi9doszq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tex-rs-async" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/element.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/future/Future.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/future/mod.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_async/mod.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_async/tex_async.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_future.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_futures.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_futures/mod.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_futures/traits.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/Musta/Rust_Projects/tex-rs/tex-rs/src/tex_futures/utils.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/Musta/Rust_Projects/tex-rs/examples/creating_basic_template/Cargo.toml" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.cargo.check" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Musta\Rust_Projects\tex-rs\tex-rs\src\traits" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Build tex-rs">
+    <configuration name="Build tex-rs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="build --package tex-rs --lib" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test::if_it_even_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package tex-rs --lib test::if_it_even_works -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Build tex-rs" />
+        <item itemvalue="Cargo.Test test::if_it_even_works" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="externalLinter" value="Clippy" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3713c4-d73c-43a4-a4f7-97f329990cdd" name="Changes" comment="" />
+      <created>1644526145088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644526145088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

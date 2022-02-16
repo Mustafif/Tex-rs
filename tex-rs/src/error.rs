@@ -2,8 +2,10 @@ use std::error::Error;
 use std::fmt;
 use std::fmt::{Debug, Display, Formatter};
 
+/// TexError that is used for custom error handling 
 #[derive(Debug)]
 pub enum TexError{
+    /// Error in priority ranking 
     RankError,
 }
 

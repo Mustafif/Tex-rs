@@ -1,0 +1,18 @@
+[package]
+name = "tex-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Library to create latex documents in Rust"
+readme = "README.md"
+authors = ["Mustafif Khan"]
+repository = "http://github.com/MKProj/Tex-rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+async-std = "1.10.0"
+rayon = "1.5.1"
+
+[features]
+async = []
