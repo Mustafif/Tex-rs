@@ -1,6 +1,6 @@
 [package]
 name = "tex-rs"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "Library to create latex documents in Rust"
